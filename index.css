@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin-top: 4px;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #618264;
+    --secondary-color: #79AC78;
+    --color-text: #443434;
+    --color-title: #000E01;
+    --font-IBM: 'IBM Plex Sans Hebrew', sans-serif;
+    --font-open_sans: 'Open Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+ }
+
+.navigation {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #79AC78;
+
+}
+
+.logo {
+    height: 54px; 
+    width: 130px;
+}
+
+.naviguer {
+    height: 37px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav {
+    justify-content: space-between;
+    padding: 20px;
+}   
+
+.navigation .nav{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navigation .nav:hover{ 
+   text-decoration: underline #79AC78;  
+   color: #79AC78;
+}
+
+.prem{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-right: 50px; 
+    text-align: center;
+    border: solid 1px none;
+    background-color:#ffffff
+}
+
+
+.A-la-une {
+    width: 100vw;
+    height: 736px;
+    display: flex;
+    flex-direction: row;   
+}
+
+.Ngannou {
+    width: 70%;
+    height: 736px;
+    background-image: url(assets/images/ngannou.jpeg );
+    background-size: cover;
+    background-position: left;
+    background-color: aqua;
+}
+
+.enfants {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 736px;
+}
+
+.enfant1{
+
+
+}
